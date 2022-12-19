@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.car-animation {
+    background-image: url('./car.jpg');
+    background-size: cover;
+    height: 300px;
+    width: 350px;
+    position: absolute;
+    animation-name: caranimation;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+@keyframes caranimation {
+    0%{
+        top: 380px;
+        left: 10px;
+
+    }
+    50% {
+        top: 380px;
+        left: 600px;
+    }
+    100% {
+        top: 380px;
+        left: 1200px;
+    }
+}
+
+.caranimation {
+    background-image: url('./cars.jpg');
+    background-size: cover;
+    height: 300px;
+    width: 350px;
+    position: absolute;
+    animation-name: animation;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes animation {
+    0%{
+        top: 380px;
+        right: 10px;
+
+    }
+    50% {
+        top: 380px;
+        right: 600px;
+    }
+    100% {
+        top: 380px;
+        right: 1200px;
+    }
+}
+
+.plane {
+    background-image: url('./plane.jpg');
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    animation-name: planeanimation;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes planeanimation {
+    0%{
+        top: 10px;
+        right: 10px;
+
+    }
+    50% {
+        top: 50px;
+        right: 50px;
+    }
+    100% {
+        top: 150px;
+        right: 150px;
+    }
+}
